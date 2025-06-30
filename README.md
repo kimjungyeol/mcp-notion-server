@@ -34,7 +34,7 @@ Here is a detailed explanation of the steps mentioned above in the following art
   "mcpServers": {
     "notion": {
       "command": "npx",
-      "args": ["-y", "@suekou/mcp-notion-server"],
+      "args": ["-y", "@kimjungyeol/mcp-notion-server"],
       "env": {
         "NOTION_API_TOKEN": "your-integration-token"
       }
@@ -85,7 +85,7 @@ By default, all responses are returned in JSON format. You can enable experiment
   "mcpServers": {
     "notion": {
       "command": "npx",
-      "args": ["-y", "@suekou/mcp-notion-server"],
+      "args": ["-y", "@kimjungyeol/mcp-notion-server"],
       "env": {
         "NOTION_API_TOKEN": "your-integration-token",
         "NOTION_MARKDOWN_CONVERSION": "true"
